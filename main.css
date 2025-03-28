@@ -1,0 +1,134 @@
+*{
+    font-family: "Montserrat", serif;
+    font-optical-sizing: auto;;
+    font-style: normal;
+}
+body{
+   background-color: #c0c6dc;
+   margin: 0;
+}
+aside{
+    border-radius: 40px;
+    width: 370px;
+    background: rgba(224, 235, 254, 0.7);
+}
+ol{
+    padding: 0;
+    padding-left: 20px;
+}
+
+ul{
+    list-style-type: disc;
+}
+button{
+    border-radius: 16px;
+    padding: 14px 16px;
+    width: 290px;
+    height: 48px;
+    border: 1px solid #7549ea;
+    font-weight: 700;
+    font-size: 16px;
+}
+h2{
+    font-weight: 700;
+    font-size: 22px;
+    color: #1f2937;
+}
+.frends{
+    margin: 48px 0;
+}
+.cout{
+    font-weight: 400;
+    font-size: 22px;
+    color: #4a5161;
+    padding-left: 16px;
+}
+
+.vb{
+    background-color:  #7549ea;
+    color: #fff;
+}
+.bn{
+    background-color: inherit;
+    color: #7549ea;   
+}
+
+
+.aside-box{
+    padding: 40px;
+}
+
+.wrapper{
+    border-radius: 40px;
+    width: 1200px;
+    background: #fff;
+    margin: 27px auto;
+    display: flex;
+    padding: 13px 18px;
+    gap: 60px;
+}
+.interest{
+    display: flex;
+    gap: 8px;
+    flex-wrap: wrap;
+    width: 290px;
+    height: 195px;
+} 
+.interest-item{
+    border-radius: 6px;
+    padding: 0px 8px;
+    height: 24px;
+    background: rgba(117, 73, 234, 0.2);
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 171%;
+    color: #7549ea;
+    margin: 0;
+}
+.btn-box{
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+.imeges{
+    display: flex;
+    align-items: center;
+    gap: 12px;
+    margin-top: 73px;
+}
+h1{
+    margin: 0;
+}
+.info-box > p{
+    display: flex;
+    gap: 24px;
+}
+.info-box > p > b{
+    width: 80px;
+}
+.text{
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 171%;
+    color: #4a5161;
+}
+
+li{
+    padding-left: 8px;
+    margin-bottom: 10px;
+}
+li::marker{
+    font-weight: bold;
+}
+.list{
+    font-weight: bold;
+}
+.inner{
+    margin-top: 10px;
+    list-style-type: disc;
+}
+
+.inner > li{
+    font-weight: 400;
+    color: #4a5161;
+}
